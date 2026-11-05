@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "clock_animator"
+version = "1.0.0"
+name = "Clock Animator"
+tagline = "Animate analog clock hands from one native time driver"
+maintainer = "Clock Animator contributors"
+type = "add-on"
+tags = ["Animation", "Rigging"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc"]
